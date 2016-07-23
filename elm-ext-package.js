@@ -1,16 +1,19 @@
+#!/usr/bin/env node
 
 var fs = require('fs-extra');
 var path = require('path');
 
-// console.log(process.argv);
+console.log("elm-ext-package 0.1.4");
 
-if (process.argv.length > 2)
+if (process.argv.length > 2) {
     switch (process.argv[2]) {
         case "apply": enableExtPackages(); break;
         case "revert": disableExtPackages(); break;
-        default: console.log("Don't know what to do");
+        default: console.log("Don't know what is " + process.argv[2]);
     }
-
+} else {
+	console.log("Available commands: apply | revert");
+}
 return;
 
 function loadJSon(name) {

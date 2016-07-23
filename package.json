@@ -1,6 +1,6 @@
 {
   "name": "elm-ext-package",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "description": "Tool to use external packages that cannot be uploaded to package.elm-lang.org",
   "bin": "elm-ext-package.js",
   "scripts": {
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/aaronps/elm-ext-package/issues"
   },
-  "homepage": "https://github.com/aaronps/elm-ext-package#readme"
+  "homepage": "https://github.com/aaronps/elm-ext-package#readme",
+  "dependencies": {
+    "fs-extra": "^0.30.0"
+  }
 }
