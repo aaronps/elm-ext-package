@@ -1,0 +1,24 @@
+{
+  "name": "elm-ext-package",
+  "version": "0.1.0",
+  "description": "Tool to use external packages that cannot be uploaded to package.elm-lang.org",
+  "bin": "elm-ext-package.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronps/elm-ext-package.git"
+  },
+  "keywords": [
+    "elm",
+    "elm-package",
+    "tool"
+  ],
+  "author": "Aaron Perez Sanchez",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/aaronps/elm-ext-package/issues"
+  },
+  "homepage": "https://github.com/aaronps/elm-ext-package#readme"
+}
