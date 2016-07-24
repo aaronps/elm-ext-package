@@ -3,7 +3,7 @@
 var fs = require('fs-extra');
 var path = require('path');
 
-console.log("elm-ext-package 0.1.4");
+console.log("elm-ext-package 0.1.5");
 
 if (process.argv.length > 2) {
     switch (process.argv[2]) {
