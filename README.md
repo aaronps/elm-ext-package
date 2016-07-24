@@ -82,7 +82,8 @@ Enabling Ext Packages
 Copying aaronps/elm-arraylist version 1.0.0 to packages
 ```
 
-Now you can work with the external modules.
+Now you can work with the external modules, just use them like
+they were standard ones (`import Some.Module`).
 
 
 ### Downloading standard packages
@@ -90,7 +91,7 @@ Now you can work with the external modules.
 You need to deactivate on revert the changes done to the files, use:
 
 ```shell
-# elm-ext-package revert
+$ elm-ext-package revert
 
 elm-ext-package 0.1.5
 Disabling Ext Packages
