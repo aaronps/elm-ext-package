@@ -1,6 +1,6 @@
 {
   "name": "elm-ext-package",
-  "version": "0.1.6",
+  "version": "0.1.5",
   "description": "Tool to use external packages not published in package.elm-lang.org",
   "bin": "elm-ext-package.js",
   "scripts": {
