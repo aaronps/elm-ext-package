@@ -1,4 +1,4 @@
-# elm-ext-package V 0.1.6
+# elm-ext-package V 0.1.7
 
 Tool to use external packages not published in package.elm-lang.org.
 
